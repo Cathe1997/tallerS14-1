@@ -1,0 +1,11 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+  .card {
+    transition: transform 0.3s; /* Transición suave para efectos */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+  }
